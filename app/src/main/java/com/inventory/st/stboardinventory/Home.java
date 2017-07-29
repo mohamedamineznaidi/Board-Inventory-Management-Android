@@ -1,5 +1,6 @@
 package com.inventory.st.stboardinventory;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -17,8 +18,9 @@ public class Home extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Toast.makeText(getApplicationContext(), "ay maadech tezel aliya", Toast.LENGTH_LONG).show();
-
+                        Toast.makeText(getApplicationContext(), "ayyy maadech tezel aliya", Toast.LENGTH_LONG).show();
+                        Intent family = new Intent(getApplication(), family.class);
+                        startActivity(family);
                     }
                 }
         );
