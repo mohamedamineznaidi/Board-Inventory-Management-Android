@@ -1,30 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.inventory.st.stboardinventory.Login">
+    tools:context="com.inventory.st.stboardinventory.Login"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="0dp">
 
 
     <Button
         android:id="@+id/login"
-        android:layout_width="108dp"
-        android:layout_height="55dp"
+        android:layout_width="395dp"
+        android:layout_height="93dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/holo_blue_light"
         android:text="Login"
+        android:textSize="24sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteY="420dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.806" />
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/login_welcome"
+        android:layout_width="395dp"
+        android:layout_height="86dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
         android:text="Welcome To ST Board Invetory Manager"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="@android:color/background_dark"
         android:textSize="24sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="58dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.261" />
+
+    <ImageView
+        android:id="@+id/stlogo"
+        android:layout_width="377dp"
+        android:layout_height="105dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.794"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/stlogo" />
 
 </android.support.constraint.ConstraintLayout>

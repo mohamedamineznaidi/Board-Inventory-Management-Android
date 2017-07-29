@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.inventory.st.stboardinventory.Home">
+    tools:context="com.inventory.st.stboardinventory.Home"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp">
 
     <TextView
         android:layout_width="368dp"
@@ -11,4 +14,39 @@
         android:text="i am home"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/home_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="381dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="146dp"
+        tools:layout_editor_absoluteX="266dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="430dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="429dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="381dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="381dp" />
 </android.support.constraint.ConstraintLayout>
