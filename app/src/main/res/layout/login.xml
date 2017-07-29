@@ -8,10 +8,23 @@
 
     <Button
         android:id="@+id/login"
+        android:layout_width="108dp"
+        android:layout_height="55dp"
+        android:text="Login"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteY="420dp" />
+
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login"
-
-        />
+        android:text="Welcome To ST Board Invetory Manager"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="58dp" />
 
 </android.support.constraint.ConstraintLayout>
